@@ -4,7 +4,7 @@ This is an object detection project developed to identify and flag sensitive con
 
 <p align="center">
   <a href="https://roboflow.com" target="_blank">
-    <img src="https://vectorseek.com/wp-content/uploads/2025/08/Roboflow-Ai-Logo-PNG-SVG-Vector.png" height="50">
+    <img src="https://cdn.prod.website-files.com/5f6bc60e665f54545a1e52a5/612ceede647190109abb0541_full-logo.png" height="50">
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://ultralytics.com" target="_blank">
