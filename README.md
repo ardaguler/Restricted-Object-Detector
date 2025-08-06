@@ -9,6 +9,15 @@ This is an object detection project developed to identify and flag sensitive con
 
 ## Technologies Used
 
+<p align="center">
+  <a href="https://roboflow.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/roboflow/notebooks/main/assets/roboflow-logo-with-text-dark-Background-1.png" alt="Roboflow" width="200"/>
+  </a>
+  <a href="https://ultralytics.com" target="_blank">
+    <img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo-social.png" alt="Ultralytics" width="200"/>
+  </a>
+</p>
+
 * **Python 3**
 * **Ultralytics (YOLOv8):** For loading the model and running inference.
 * **OpenCV:** For image processing and visualization.
@@ -36,10 +45,9 @@ To run this project on your local machine, follow these steps:
 4.  **Run the Script:**
     Update the `IMAGE_PATH` variable in the Python script to point to your desired image. Then, run the script:
     ```bash
-    python your_script_name.py 
+    python your_script_name.py
     ```
     *(Not: `your_script_name.py` kısmını kendi Python dosyanın adıyla değiştir, örn: `with_weights.py`)*
-
 
 ## Future Enhancements
 
