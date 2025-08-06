@@ -4,8 +4,8 @@ This is an object detection project developed to identify and flag sensitive con
 
 <p align="center">
   <a href="https://roboflow.com" target="_blank">
-    <img src="https://iconlogovector.com/uploads/images/2024/12/lg-67712ab177a9f-Roboflow.webp" height="50">
-  </a>
+    <img src="https://iconlogovector.com/uploads/images/2024/12/lg-67712ab177a9f-Roboflow.webp" height="100" width="100">
+    </a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://ultralytics.com" target="_blank">
     <img src="https://cdn.prod.website-files.com/680a070c3b99253410dd3dcf/680a070c3b99253410dd3e88_UltralyticsYOLO_full_blue.svg" height="50">
