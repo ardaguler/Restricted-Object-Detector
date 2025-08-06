@@ -11,10 +11,11 @@ This is an object detection project developed to identify and flag sensitive con
 
 <p align="center">
   <a href="https://roboflow.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/roboflow/notebooks/main/assets/roboflow-logo-with-text-dark-Background-1.png" alt="Roboflow" width="200"/>
+    <img src="https://logosandtypes.com/wp-content/uploads/2025/02/roboflow.svg" alt="Roboflow Logo" height="50">
   </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://ultralytics.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/ultralytics/assets/main/logo-social.png" alt="Ultralytics" width="200"/>
+    <img src="https://cdn.prod.website-files.com/680a070c3b99253410dd3dcf/680a070c3b99253410dd3e61_Ultralytics_mark_blue.svg" alt="Ultralytics YOLO Logo" height="50">
   </a>
 </p>
 
@@ -51,6 +52,6 @@ To run this project on your local machine, follow these steps:
 
 ## Future Enhancements
 
-- [ ] Adding real-time detection capability from a video feed or webcam.
-- [ ] Logging the detection results to a text or CSV file.
-- [ ] Creating a simple user interface (UI) for easier use.
+-   [ ] Adding real-time detection capability from a video feed or webcam.
+-   [ ] Logging the detection results to a text or CSV file.
+-   [ ] Creating a simple user interface (UI) for easier use.
