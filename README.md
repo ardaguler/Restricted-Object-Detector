@@ -2,22 +2,22 @@
 
 This is an object detection project developed to identify and flag sensitive content such as knives, guns, and cigarettes in images. The Roboflow platform was used for dataset management and model training.
 
+<p align="center">
+  <a href="https://roboflow.com" target="_blank">
+    <img src="https://logosandtypes.com/wp-content/uploads/2025/02/roboflow.svg" height="50">
+  </a>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://ultralytics.com" target="_blank">
+    <img src="https://cdn.prod.website-files.com/680a070c3b99253410dd3dcf/680a070c3b99253410dd3e61_Ultralytics_mark_blue.svg" height="50">
+  </a>
+</p>
+
 ## Features
 
 * **Local Detection:** Performs object detection locally using a trained YOLOv8 model (`.pt` weights file) without needing an internet connection.
 * **Visualization:** Displays the detected objects and their confidence scores directly on the original image.
 
 ## Technologies Used
-
-<p align="center">
-  <a href="https://roboflow.com" target="_blank">
-    <img src="https://logosandtypes.com/wp-content/uploads/2025/02/roboflow.svg" alt="Roboflow Logo" height="50">
-  </a>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  <a href="https://ultralytics.com" target="_blank">
-    <img src="https://cdn.prod.website-files.com/680a070c3b99253410dd3dcf/680a070c3b99253410dd3e61_Ultralytics_mark_blue.svg" alt="Ultralytics YOLO Logo" height="50">
-  </a>
-</p>
 
 * **Python 3**
 * **Ultralytics (YOLOv8):** For loading the model and running inference.
