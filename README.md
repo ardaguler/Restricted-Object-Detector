@@ -39,7 +39,7 @@ To run this project on your local machine, follow these steps:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/ardaguler/Restricted-Object-Detector.git](https://github.com/ardaguler/Restricted-Object-Detector.git)
+    git clone https://github.com/ardaguler/Restricted-Object-Detector.git
     cd Restricted-Object-Detector
     ```
 
