@@ -63,7 +63,7 @@ To run this project on your local machine, follow these steps:
 
 Here is an example of the model detecting a 'gun' in a test image. The bounding box, class label, and confidence score are displayed on the output image.
 
-![Detection Example](https://github.com/user-attachments/assets/a6ef177f-d69b-443e-bd1b-4a284d8572d2)
+![Detection Example](https://github.com/user-attachments/assets/e8f437a3-41e8-483b-98a3-23bbe18e9f85)
 
 *An example of the model successfully identifying a firearm with a high confidence score.*
 
