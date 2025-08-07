@@ -4,11 +4,11 @@ This is an object detection project developed to identify and flag sensitive con
 
 <p align="center">
   <a href="https://roboflow.com" target="_blank">
-    <img src="https://assets-global.website-files.com/645cec60ffb19d54c79b52a3/645cec60ffb19d54c79b533a_Logo-mark.svg" alt="Roboflow Logo" height="50">
+    <img src="https://techcrunch.com/wp-content/uploads/2021/01/roboflow_raccoon_full.png" height="50">
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://ultralytics.com" target="_blank">
-    <img src="https://raw.githubusercontent.com/ultralytics/ultralytics/main/ultralytics/assets/logo.png" alt="Ultralytics YOLO Logo" height="50">
+    <img src="https://cdn.prod.website-files.com/680a070c3b99253410dd3dcf/680a070c3b99253410dd3e88_UltralyticsYOLO_full_blue.svg" height="50">
   </a>
 </p>
 
