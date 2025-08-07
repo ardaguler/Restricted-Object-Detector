@@ -57,6 +57,15 @@ To run this project on your local machine, follow these steps:
     ```bash
     python with_weights.py
     ```
+---
+
+## Demonstration
+
+Here is an example of the model detecting a 'gun' in a test image. The bounding box, class label, and confidence score are displayed on the output image.
+
+![Detection Example](https://github.com/user-attachments/assets/a6ef177f-d69b-443e-bd1b-4a284d8572d2)
+
+*An example of the model successfully identifying a firearm with a high confidence score.*
 
 ---
 
