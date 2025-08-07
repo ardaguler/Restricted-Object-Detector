@@ -49,8 +49,8 @@ To run this project on your local machine, follow these steps:
     pip install -r requirements.txt
     ```
 
-3.  **Download the Model (Important):**
-    This repository does not include the model's weight file (`.pt`) due to its large size. You need to place your trained `weights.pt` file inside the `Models` folder.
+3.  **Model Availability:**
+    The trained model (weights.pt) is included in the Models folder within this repository.
 
 4.  **Run the Script:**
     Update the `IMAGE_PATH` variable in `with_weights.py` to point to your desired image. Then, run the script:
