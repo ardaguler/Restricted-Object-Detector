@@ -4,25 +4,34 @@ This is an object detection project developed to identify and flag sensitive con
 
 <p align="center">
   <a href="https://roboflow.com" target="_blank">
-    <img src="https://techcrunch.com/wp-content/uploads/2021/01/roboflow_raccoon_full.png" height="50">
+    <img src="https://assets-global.website-files.com/645cec60ffb19d54c79b52a3/645cec60ffb19d54c79b533a_Logo-mark.svg" alt="Roboflow Logo" height="50">
   </a>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <a href="https://ultralytics.com" target="_blank">
-    <img src="https://cdn.prod.website-files.com/680a070c3b99253410dd3dcf/680a070c3b99253410dd3e88_UltralyticsYOLO_full_blue.svg" height="50">
+    <img src="https://raw.githubusercontent.com/ultralytics/ultralytics/main/ultralytics/assets/logo.png" alt="Ultralytics YOLO Logo" height="50">
   </a>
 </p>
 
 ## Features
 
-* **Local Detection:** Performs object detection locally using a trained YOLOv8 model (`.pt` weights file) without needing an internet connection.
-* **Visualization:** Displays the detected objects and their confidence scores directly on the original image.
+- **Local Detection:** Performs object detection locally using a trained YOLOv8 model (`.pt` weights file) without needing an internet connection.
+- **Visualization:** Displays the detected objects and their confidence scores directly on the original image.
+
+---
 
 ## Technologies Used
 
-* **Python 3**
-* **Ultralytics (YOLOv8):** For loading the model and running inference.
-* **OpenCV:** For image processing and visualization.
-* **Roboflow:** For dataset management and model training.
+This project is built with the following core technologies:
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch">
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV">
+  <img src="https://img.shields.io/badge/YOLOv8-8D44AD?style=for-the-badge&logoColor=white" alt="YOLOv8">
+  <img src="https://img.shields.io/badge/Roboflow-000000?style=for-the-badge&logo=roboflow&logoColor=white" alt="Roboflow">
+</p>
+
+---
 
 ## Setup and Usage
 
@@ -44,14 +53,15 @@ To run this project on your local machine, follow these steps:
     This repository does not include the model's weight file (`.pt`) due to its large size. You need to place your trained `weights.pt` file inside the `Models` folder.
 
 4.  **Run the Script:**
-    Update the `IMAGE_PATH` variable in the Python script to point to your desired image. Then, run the script:
+    Update the `IMAGE_PATH` variable in `with_weights.py` to point to your desired image. Then, run the script:
     ```bash
-    python your_script_name.py
+    python with_weights.py
     ```
-    *(Not: `your_script_name.py` kısmını kendi Python dosyanın adıyla değiştir, örn: `with_weights.py`)*
+
+---
 
 ## Future Enhancements
 
--   [ ] Adding real-time detection capability from a video feed or webcam.
--   [ ] Logging the detection results to a text or CSV file.
--   [ ] Creating a simple user interface (UI) for easier use.
+- [ ] Adding real-time detection capability from a video feed or webcam.
+- [ ] Logging the detection results to a text or CSV file.
+- [ ] Creating a simple user interface (UI) for easier use.
