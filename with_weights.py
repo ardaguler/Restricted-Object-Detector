@@ -4,7 +4,7 @@ import cv2
 # --- AYARLAR ---
 # API Anahtarı ve Model ID'ye artık ihtiyacımız yok. Onların yerine lokal modelin yolu geldi.
 LOCAL_MODEL_PATH = "Models/weights.pt"
-IMAGE_PATH = "images/knife_and_cigarette.jpg"
+IMAGE_PATH = "images/gun.jpg"
 
 # Bu kısım aynı kaldı
 display_mapping = {
@@ -37,7 +37,7 @@ try:
 
     # +++ BU KISIM EKLENDİ (Lokal model ile tespit) +++
     print(f"'{IMAGE_PATH}' resmi üzerinde nesne tespiti yapılıyor...")
-    results = model(image)
+    results = model(image, conf=0.1)
     predictions = results[0].boxes
     print("Tespit işlemi tamamlandı.")
     # +++ EKLENEN KISMIN SONU +++
@@ -74,7 +74,7 @@ try:
 
     # Bu bölüm de hiç değişmedi
     # Gösterilecek pencerenin boyutunu %50 olarak ayarlıyoruz
-    scale_percent = 50
+    scale_percent = 100
     width = int(image.shape[1] * scale_percent / 100)
     height = int(image.shape[0] * scale_percent / 100)
     dim = (width, height)
