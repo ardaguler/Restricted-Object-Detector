@@ -2,7 +2,7 @@ from ultralytics import YOLO  # Değişti: ultralytics kütüphanesini ekledik
 import cv2
 
 LOCAL_MODEL_PATH = "Models/weights.pt"
-IMAGE_PATH = "images/knife.jpg"
+IMAGE_PATH = "images/smoking_gun_knife_2.png"
 
 # Modelde cigarette ismi farklı olduğu için ismini değiştiriyor
 display_mapping = {
@@ -12,11 +12,11 @@ display_mapping = {
 
 try:
     # Modeli lokal dosyadan yüklüyoruz
-    print(f"'{LOCAL_MODEL_PATH}' modeli bilgisayarınızdan yükleniyor...")
+    print(f"'{LOCAL_MODEL_PATH}' modeli yükleniyor...")
     model = YOLO(LOCAL_MODEL_PATH)
     print("Model başarıyla yüklendi.")
 
-    # Resmi OpenCV ile okuyor
+    # Resmi OpenCV fonksiyonu ile okuyor
     image = cv2.imread(IMAGE_PATH)
 
     # Resmin başarılı bir şekilde okunduğunu test ediyor
@@ -55,7 +55,7 @@ try:
             label_position = (x_min, y_min - 10 if y_min > 20 else y_min + 20)
             cv2.putText(image, label, label_position, cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 0), 2)
 
-    # Gösterilecek pencerenin boyutunu ayarlıyor
+    # Pencerenin boyutunu ayarlıyor
     scale_percent = 50
     width = int(image.shape[1] * scale_percent / 100)
     height = int(image.shape[0] * scale_percent / 100)
